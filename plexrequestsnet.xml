@@ -33,4 +33,7 @@
   <Banner></Banner>
   <Icon>https://tidusjar.github.io/PlexRequests.Net/img/plex-pms-icon.png</Icon>
   <ExtraParams></ExtraParams>
+  <Beta>False</Beta>
+  <Category>HomeAutomation: Network:Web MediaApp:Other</Category>
+  <Date>2016-04-30</Date> 
 </Container>
