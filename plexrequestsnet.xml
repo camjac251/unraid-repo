@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>plexrequestsnet</Name>
+  <Description>
+  PlexRequests.Net is a simple automated way for users to request new content for Plex.[br][br]
+  [b]/config[/b] is where the plex request configuration and library files are stored. [br][br]
+  Thanks to rogueosb for creating the docker! 
+  </Description>
+  <Registry>https://hub.docker.com/r/rogueosb/plexrequestsnet/~/dockerfile/</Registry>
+  <Repository>rogueosb/plexrequestsnet</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3579</HostPort>
+        <ContainerPort>3579</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>http://[IP]:[PORT:3579]</WebUI>
+  <Banner></Banner>
+  <Icon>https://tidusjar.github.io/PlexRequests.Net/img/plex-pms-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+</Container>
