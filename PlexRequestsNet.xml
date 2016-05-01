@@ -36,8 +36,8 @@
   </Data>
   <Version></Version>
   <WebUI>http://[IP]:[PORT:3579]</WebUI>
-  <Banner>https://tidusjar.github.io/PlexRequests.Net/img/plex-pms-icon.png</Banner>
-  <Icon>https://tidusjar.github.io/PlexRequests.Net/img/plex-pms-icon.png</Icon>
+  <Banner>https://github.com/bjonness406/Docker-templates/blob/master/plex-icon.png?raw=true</Banner>
+  <Icon>https://github.com/bjonness406/Docker-templates/blob/master/plex-icon.png?raw=true</Icon>
   <ExtraParams></ExtraParams>
   <Date>2016-04-30</Date>
 </Container>
