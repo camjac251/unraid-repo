@@ -1,6 +1,6 @@
 # Docker-templates for unRAID
 
-[b]How to install:[/b]
+**How to install:**
 
 Preferred method:
  - Install Community Applications Plugin made by Squid - https://lime-technology.com/forum/index.php?topic=40262.0
