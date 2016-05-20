@@ -33,8 +33,8 @@
   </Data>
   <Version></Version>
   <WebUI>http://[IP]:[PORT:3579]</WebUI>
-  <Banner>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Icon/plex-icon.png</Banner>
-  <Icon>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Icon/plex-icon.png</Icon>
+  <Banner>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Icon/PlexRequestsNet.png</Banner>
+  <Icon>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Icon/PlexRequestsNet.png</Icon>
   <ExtraParams></ExtraParams>
   <Date>2016-04-30</Date>
 </Container>
