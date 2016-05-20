@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Beta>False</Beta>
-<Category>HomeAutomation: Network:Web MediaApp:Other</Category>
+  <Category>HomeAutomation: Network:Web MediaApp:Other</Category>
   <Name>Bjonness406-PlexRequestsNet</Name>
   <Description>
     PlexRequests.Net is a simple automated way for users to request new content for Plex.[br][br]
     [b]/config[/b] is where the plex request configuration and library files are stored. [br][br]
     Thanks to rogueosb for creating the docker! 
   </Description>
-  <overview>
-    PlexRequests.Net is a simple automated way for users to request new content for Plex.
-  </overview>
   <Support>https://lime-technology.com/forum/index.php?topic=48798.0</Support>
   <Registry>https://hub.docker.com/r/rogueosb/plexrequestsnet/~/dockerfile/</Registry>
   <Repository>rogueosb/plexrequestsnet</Repository>
