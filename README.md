@@ -2,7 +2,6 @@
 
 **How to install:**
 
-
 **Preferred method:**
  - Install Community Applications Plugin made by Squid - https://lime-technology.com/forum/index.php?topic=40262.0
  - Go to the Apps tab in the unRAID GUI
