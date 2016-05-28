@@ -18,7 +18,6 @@
   <TemplateURL>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Bjonness406/PlexRequestsNet.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Icon/PlexRequest.png</Icon>
   <ExtraParams/>
-  <DateInstalled>1464469596</DateInstalled>
   <Description>&#xD;
     PlexRequests.Net is a simple automated way for users to request new content for Plex.[br][br]&#xD;
     [b]/config[/b] is where the plex request configuration and library files are stored. [br][br]&#xD;
