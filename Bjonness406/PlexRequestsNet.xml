@@ -42,6 +42,6 @@
     </Volume>
   </Data>
   <Environment/>
-  <Config Name="Port 1" Target="3579" Default="3579" Mode="tcp" Description="Container Port: 3579" Type="Port" Display="always" Required="true" Mask="false">3579</Config>
+  <Config Name="PlexRequestsNet UI port" Target="3579" Default="3579" Mode="tcp" Description="Container Port: 3579" Type="Port" Display="always" Required="true" Mask="false">3579</Config>
   <Config Name="AppData Config Path" Target="/config" Default="path to config" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced" Required="true" Mask="false">path to config</Config>
 </Container>
