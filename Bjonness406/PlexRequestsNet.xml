@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
+  <Beta>False</Beta>
+  <Date>2016-04-30</Date>
   <Name>Bjonness406-PlexRequestsNet</Name>
   <Repository>rogueosb/plexrequestsnet</Repository>
   <Registry>https://hub.docker.com/r/rogueosb/plexrequestsnet/~/dockerfile/</Registry>
