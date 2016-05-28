@@ -9,9 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://lime-technology.com/forum/index.php?topic=48798.0</Support>
   <Overview>&#xD;
-    PlexRequests.Net is a simple automated way for users to request new content for Plex.[br][br]&#xD;
-    [b]/config[/b] is where the plex request configuration and library files are stored. [br][br]&#xD;
-    Thanks to rogueosb for creating the docker! &#xD;
+    PlexRequests.Net is a simple automated way for users to request new content for Plex.
   </Overview>
   <Category>HomeAutomation: Network:Web MediaApp:Other</Category>
   <WebUI>http://[IP]:[PORT:3579]</WebUI>
