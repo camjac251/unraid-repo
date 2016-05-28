@@ -8,6 +8,11 @@
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://lime-technology.com/forum/index.php?topic=48798.0</Support>
+  <Description>&#xD;
+    PlexRequests.Net is a simple automated way for users to request new content for Plex.[br][br]&#xD;
+    [b]/config[/b] is where the plex request configuration and library files are stored. [br][br]&#xD;
+    Thanks to rogueosb for creating the docker! &#xD;
+  </Description>
   <Overview>&#xD;
     PlexRequests.Net is a simple automated way for users to request new content for Plex.
   </Overview>
@@ -16,11 +21,6 @@
   <TemplateURL>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Bjonness406/PlexRequestsNet.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Icon/PlexRequest.png</Icon>
   <ExtraParams/>
-  <Description>&#xD;
-    PlexRequests.Net is a simple automated way for users to request new content for Plex.[br][br]&#xD;
-    [b]/config[/b] is where the plex request configuration and library files are stored. [br][br]&#xD;
-    Thanks to rogueosb for creating the docker! &#xD;
-  </Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -39,6 +39,6 @@
     </Volume>
   </Data>
   <Environment/>
-  <Config Name="UI port" Target="3579" Default="3579" Mode="tcp" Description="Port for PlexRequestsNet UI" Type="Port" Display="always-hide" Required="true" Mask="false">3579</Config>
+  <Config Name="WebUI port" Target="3579" Default="3579" Mode="tcp" Description="Port for PlexRequestsNet WebUI" Type="Port" Display="always-hide" Required="true" Mask="false">3579</Config>
   <Config Name="AppData Config Path" Target="/config" Default="path to config" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">path to config</Config>
 </Container>
