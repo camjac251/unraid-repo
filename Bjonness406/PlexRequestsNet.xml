@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Beta>False</Beta>
   <Date>2016-04-30</Date>
   <Name>Bjonness406-PlexRequestsNet</Name>
   <Repository>rogueosb/plexrequestsnet</Repository>
@@ -13,7 +12,7 @@
     [b]/config[/b] is where the plex request configuration and library files are stored. [br][br]&#xD;
     Thanks to rogueosb for creating the docker! &#xD;
   </Overview>
-  <Category>HomeAutomation: Network:Web MediaApp:Other</Category>
+  <Category>HomeAutomation: Network:Web MediaApp:Other Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:3579]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Bjonness406/PlexRequestsNet.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Icon/PlexRequest.png</Icon>
@@ -42,5 +41,5 @@
   </Data>
   <Environment/>
   <Config Name="WebUI port" Target="3579" Default="3579" Mode="tcp" Description="Port for PlexRequestsNet WebUI" Type="Port" Display="always-hide" Required="true" Mask="false">3579</Config>
-  <Config Name="AppData Config Path" Target="/config" Default="path to config" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">path to config</Config>
+  <Config Name="AppData Config Path" Target="/config" Default="path to config" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false">path to config</Config>
 </Container>
