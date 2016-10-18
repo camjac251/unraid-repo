@@ -16,7 +16,7 @@
 [br][br]Thanks to @ntrevena (at plex forum) for the script!</Overview>
   <Category>Productivity: Tools: Status:Stable</Category>
   <WebUI/>
-  <TemplateURL>Need to add</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Bjonness406/convert2mkv.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Icon/avi-to-mkv.jpg</Icon>
   <ExtraParams/>
   <Description>[b]A docker to convert your videos to mkv or mp4 [/b]&#xD;
