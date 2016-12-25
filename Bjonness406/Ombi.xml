@@ -2,7 +2,7 @@
 <Container version="2">
   <Date>2016-04-30</Date>
   <Name>Bjonness406-Ombi</Name>
-  <Repository>rogueosb/ombi/</Repository>
+  <Repository>rogueosb/ombi</Repository>
   <Registry>https://hub.docker.com/r/rogueosb/ombi/~/dockerfile/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
