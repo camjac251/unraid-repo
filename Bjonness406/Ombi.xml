@@ -15,7 +15,7 @@
   <Category>HomeAutomation: Network:Web MediaApp:Other Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:3579]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Bjonness406/Ombi.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Icon/Ombi.png</Icon>
+  <Icon>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Icon/Ombi_new.png</Icon>
   <ExtraParams/>
   <Description>&#xD;
     Ombi is a simple automated way for users to request new content on for example Plex.[br][br]&#xD;
