@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Date>2020-08-28</Date>
-  <Name>camjac251-containerchange</Name>
+  <Name>containerchange</Name>
   <Repository>camjac251/container-change-docker</Repository>
   <Registry>https://hub.docker.com/r/camjac251/containerchange/~/dockerfile/</Registry>
   <Network>bridge</Network>
@@ -32,11 +32,17 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/containerchange</HostDir>
+      <HostDir>/mnt/user/appdata/containerchange</HostDir>
       <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/share/directory</HostDir>
+      <ContainerDir>/work</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Environment/>
-  <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/containerchange" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/cache/appdata/containerchange</Config>
+  <Config Name="AppData Config Path" Target="/config" Default="/mnt/user/appdata/containerchange" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/user/appdata/containerchange</Config>
+  <Config Name="Data Path" Target="/work" Default="/mnt/user/share/directory" Mode="rw" Description="Container Path: /work" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/user/share/directory</Config>
 </Container>
