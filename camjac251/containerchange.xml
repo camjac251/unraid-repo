@@ -16,8 +16,8 @@
 [br][br]Thanks to @ntrevena (at plex forum) for the script!</Overview>
   <Category>Productivity: Tools: Status:Stable</Category>
   <WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/camjac251/container-change-docker/master/camjac251/containerchange.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/camjac251/container-change-docker/master/Icon/avi-to-mkv.jpg</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/camjac251/unraid-containerchange-repo/master/camjac251/containerchange.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/camjac251/unraid-containerchange-repo/master/Icon/avi-to-mkv.jpg</Icon>
   <ExtraParams/>
   <Description>[b]A docker to convert your videos to mkv or mp4 [/b]&#xD;
 &#xD;
