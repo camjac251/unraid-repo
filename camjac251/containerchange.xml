@@ -37,7 +37,7 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/share/directory</HostDir>
+      <HostDir/>
       <ContainerDir>/work</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
