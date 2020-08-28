@@ -2,8 +2,8 @@
 <Container version="2">
   <Date>2020-08-28</Date>
   <Name>containerchange</Name>
-  <Repository>camjac251/container-change-docker</Repository>
-  <Registry>https://hub.docker.com/r/camjac251/containerchange/~/dockerfile/</Registry>
+  <Repository>camjac251/containerchange</Repository>
+  <Registry>https://hub.docker.com/r/camjac251/container-change/~/dockerfile/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://lime-technology.com/forum/index.php?topic=48798.0</Support>
@@ -16,8 +16,8 @@
 [br][br]Thanks to @ntrevena (at plex forum) for the script!</Overview>
   <Category>Productivity: Tools: Status:Stable</Category>
   <WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/camjac251/Docker-templates/master/camjac251/containerchange.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/camjac251/Docker-templates/master/Icon/avi-to-mkv.jpg</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/camjac251/container-change-docker/master/camjac251/containerchange.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/camjac251/container-change-docker/master/Icon/avi-to-mkv.jpg</Icon>
   <ExtraParams/>
   <Description>[b]A docker to convert your videos to mkv or mp4 [/b]&#xD;
 &#xD;
