@@ -44,5 +44,5 @@
   </Data>
   <Environment/>
   <!-- Volume Mappings -->
-  <Config Name="Output Directory" Target="/work" Default="" Mode="rw" Description="Base folder of mkv files.&amp;lt;br&amp;gt;Container path: /work" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Work Directory" Target="/work" Default="" Mode="rw" Description="Base folder of mkv files.&amp;lt;br&amp;gt;Container path: /work" Type="Path" Display="always-hide" Required="true" Mask="false"/>
 </Container>
