@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Date>2020-08-28</Date>
-  <Name>containerchange</Name>
-  <Repository>camjac251/containerchange</Repository>
+  <Name>container-change</Name>
+  <Repository>camjac251/container-change</Repository>
   <Registry>https://hub.docker.com/r/camjac251/container-change/~/dockerfile/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
