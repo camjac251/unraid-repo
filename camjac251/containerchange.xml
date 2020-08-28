@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Date>2016-10-18</Date> 
-  <Name>Bjonness406-convert2mkv</Name>
-  <Repository>bjonness406/convert2mkv</Repository>
-  <Registry>https://hub.docker.com/r/bjonness406/convert2mkv/~/dockerfile/</Registry>
+  <Date>2020-08-28</Date>
+  <Name>camjac251-containerchange</Name>
+  <Repository>camjac251/container-change-docker</Repository>
+  <Registry>https://hub.docker.com/r/camjac251/containerchange/~/dockerfile/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://lime-technology.com/forum/index.php?topic=48798.0</Support>
-  <Overview>[b]A docker to convert your videos to mkv or mp4 [/b]&#xD;
+  <Overview>[b]A docker to convert your videos to m2ts [/b]&#xD;
 &#xD;
 [br][br]When you start the container, it will start the script, and stop when the script is finished. &#xD;
 [br]So you will need to restart the container when you add a file you want to convert&#xD;
@@ -16,8 +16,8 @@
 [br][br]Thanks to @ntrevena (at plex forum) for the script!</Overview>
   <Category>Productivity: Tools: Status:Stable</Category>
   <WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Bjonness406/convert2mkv.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/bjonness406/Docker-templates/master/Icon/avi-to-mkv.jpg</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/camjac251/Docker-templates/master/camjac251/containerchange.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/camjac251/Docker-templates/master/Icon/avi-to-mkv.jpg</Icon>
   <ExtraParams/>
   <Description>[b]A docker to convert your videos to mkv or mp4 [/b]&#xD;
 &#xD;
@@ -32,11 +32,11 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/convert2mkv</HostDir>
+      <HostDir>/mnt/cache/appdata/containerchange</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Environment/>
-  <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/convert2mkv" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/cache/appdata/convert2mkv</Config>
+  <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/containerchange" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/cache/appdata/containerchange</Config>
 </Container>
