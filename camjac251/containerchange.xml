@@ -43,6 +43,6 @@
     </Volume>
   </Data>
   <Environment/>
-  <Config Name="AppData Config Path" Target="/config" Default="/mnt/user/appdata/containerchange" Mode="rw" Description="Container Path: /config" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/user/appdata/containerchange</Config>
-  <Config Name="Data Path" Target="/work" Default="/mnt/user/share/directory" Mode="rw" Description="Container Path: /work" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/user/share/directory</Config>
+  <!-- Volume Mappings -->
+  <Config Name="Output Directory" Target="/work" Default="" Mode="rw" Description="Base folder of mkv files.&amp;lt;br&amp;gt;Container path: /work" Type="Path" Display="always-hide" Required="true" Mask="false"/>
 </Container>
