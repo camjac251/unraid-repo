@@ -45,4 +45,5 @@
   <Environment/>
   <!-- Volume Mappings -->
   <Config Name="Work Directory" Target="/work" Default="" Mode="rw" Description="Base folder of mkv files.&amp;lt;br&amp;gt;Container path: /work" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+  <Config Name="Output File Container" Target="container" Default="m2ts" Mode="rw" Description="Best to use mp4/m2ts only" Type="Variable" Display="always-hide" Required="true" Mask="false"/>
 </Container>
