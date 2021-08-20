@@ -4,7 +4,7 @@
   <Name>foundrylicensingutility</Name>
   <Repository>camjac251/docker-foundry-rlm</Repository>
   <Registry>https://hub.docker.com/r/camjac251/docker-foundry-rlm/~/dockerfile/</Registry>
-  <Network>bridge</Network>
+  <Network>host</Network>
   <Privileged>false</Privileged>
   <Overview>[b]Foundry RLM server for licensing [/b]</Overview>
   <Category>Productivity: Tools: Status:Stable</Category>
@@ -14,7 +14,7 @@
   <ExtraParams/>
   <Description></Description>
   <Networking>
-    <Mode>bridge</Mode>
+    <Mode>host</Mode>
     <Publish/>
   </Networking>
   <Data>
