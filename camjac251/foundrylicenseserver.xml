@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Date>2021-08-20</Date>
+  <Name>foundrylicensingutility</Name>
+  <Repository>camjac251/docker-foundry-rlm</Repository>
+  <Registry>https://hub.docker.com/r/camjac251/docker-foundry-rlm/~/dockerfile/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Overview>[b]Foundry RLM server for licensing [/b]</Overview>
+  <Category>Productivity: Tools: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:5800]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/camjac251/unraid-repo/master/camjac251/foundrylicenseserver.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/camjac251/unraid-repo/master/Icon/foundrylicensingutility.png</Icon>
+  <ExtraParams/>
+  <Description></Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/opt/rlm/licenses</ContainerDir>
+      <Mode>r</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <!-- Volume Mappings -->
+  <Config Name="License Folder Path" Target="/opt/rlm/licenses" Default="" Mode="r" Description="Root path containing foundry_float.lic.&amp;lt;br&amp;gt;Container path: /opt/rlm/licenses" Type="Path" Display="always-hide" Required="true" Mask="false"/>
+</Container>
