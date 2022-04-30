@@ -2,8 +2,8 @@
 <Container version="2">
   <Date>2021-08-20</Date>
   <Name>revisionfxlicensingutility</Name>
-  <Repository>camjac251/docker-revisionfx-rvm</Repository>
-  <Registry>https://hub.docker.com/r/camjac251/docker-revisionfx-rvm/~/dockerfile/</Registry>
+  <Repository>camjac251/docker-revisionfx-rvl</Repository>
+  <Registry>https://hub.docker.com/r/camjac251/docker-revisionfx-rvl/~/dockerfile/</Registry>
   <Network>host</Network>
   <Privileged>false</Privileged>
   <Overview>[b]RevisionFX RLM server for licensing [/b]</Overview>
